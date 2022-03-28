@@ -1,0 +1,23 @@
+{
+  "name": "sweat-zone",
+  "version": "1.0.0",
+  "description": "## Description For people that are starting their fitness goals or are pros at training, this site provides a guide for all the best workouts. It will include upper and lower body strength training guides that will include a description of the workout, time frame, and youtube link. Users will also be able to submit their own workouts to be featured on the page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffpereira/Sweat-zone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiffpereira/Sweat-zone/issues"
+  },
+  "homepage": "https://github.com/tiffpereira/Sweat-zone#readme",
+  "dependencies": {
+    "mongoose": "^6.2.8"
+  }
+}
