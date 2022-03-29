@@ -1,7 +1,8 @@
 const Lower = require('../models/lowerworkout')
 const Upper = require('../models/upperworkout')
-
 // const Submit = require('../models/submission')
+
+/////////////////////// Lower body controllers ////////////////////////////
 
 const getLowerWorkouts = async (req, res) => {
     try {
