@@ -77,7 +77,6 @@ const main = async () => {
 			Trainer: Caroline Girvan
 
             THE WORKOUT:
-
             Heel Elevated Squats
             Static Lunge
             Calf Raises
@@ -85,7 +84,7 @@ const main = async () => {
             Staggered Squat to Squat
             Paused ELevated Squat
             Bulgarian Lunge`,
-            Time_frame:"45 Minutes",
+            time_frame:"45 Minutes",
             url: "https://www.youtube.com/watch?v=pNqJ3ZAU178"
         }
 
