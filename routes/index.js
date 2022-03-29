@@ -16,8 +16,16 @@ router.delete('/lowerbodyworkouts/:id', controllers.deleteLowerWorkout)
 
 // router.post('/lowerbodyworkouts', controllers.createLowerWorkout)
 
-//Upper Body
+/////////////////////////// Upper Body routes /////////////////////////////
 
 router.get('/upperbodyworkouts', controllers.getUpperWorkouts)
+
+router.get('upperbodyworkouts/:id', controllers.getUpperById)
+
+router.put('/upperbodyworkouts/:id', controllers.updateUpperWorkout)
+
+router.delete('/upperbodyworkouts/:id', controllers.deleteUpperWorkout)
+
+//router.post('/upperbodyworkouts', controllers.createUpperWorkout)
 
 module.exports = router;
