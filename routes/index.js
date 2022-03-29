@@ -6,13 +6,18 @@ router.get('/', (req, res) => res.send('Landing Page'))
 
 router.get('/lowerbodyworkouts', controllers.getLowerWorkouts)
 
-router.get('/upperbodyworkouts', controllers.getUpperWorkouts)
-
 router.get('lowerbodyworkouts/:id', controllers.getLowerById)
 
+router.put('/lowerbodyworkouts/:id', controllers.updateLowerWorkout)
 
-//Look into post method: I think the route is incorrect might have to make 2, one for lower and upper body
+router.delete('/lowerbodyworkouts/:id', controllers.deleteLowerWorkout)
 
-router.post('/newworkout', controllers.createWorkout)
+//Look into post method: I think the route is incorrect might have to make 2, one for lower and upper body & router.post is crashing server 
+
+// router.post('/lowerbodyworkouts', controllers.createLowerWorkout)
+
+//Upper Body
+
+router.get('/upperbodyworkouts', controllers.getUpperWorkouts)
 
 module.exports = router;
