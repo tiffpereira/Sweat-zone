@@ -1,6 +1,6 @@
 const Lower = require('../models/lowerworkout')
 const Upper = require('../models/upperworkout')
-// const Submit = require('../models/submission')
+const Submit = require('../models/submission')
 
 /////////////////////// Lower body controllers ////////////////////////////
 
@@ -129,6 +129,20 @@ const deleteUpperWorkout = async (req, res) => {
     }
 }
 
+///////////////////////////////// Submission //////////////////////////////////
+
+const createSubmission = async (req, res) => {
+    try {
+        const submission = await new Submit(req.body)
+        await submission.save()
+        return res.status(201).json({
+            submission,
+        });
+    } catch (error) {
+        return res.status(500).json({ error: error.message })
+    }
+}
+
 
 module.exports = {
     getLowerWorkouts,
@@ -141,5 +155,7 @@ module.exports = {
     updateUpperWorkout,
     deleteUpperWorkout,
     getUpperById,
-    createUpperWorkout
+    createUpperWorkout,
+
+    createSubmission
 }

@@ -26,4 +26,8 @@ router.delete('/upperbodyworkouts/:id', controllers.deleteUpperWorkout)
 
 router.post('/upperbodyworkouts', controllers.createUpperWorkout)
 
+//////////////////////////////// Submission /////////////////////////////////
+
+router.post('/submission', controllers.createSubmission)
+
 module.exports = router;

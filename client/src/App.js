@@ -21,7 +21,7 @@ function App() {
         <Route path='/workouts' element={ <Workouts/> } />
         <Route path='/lowerbodyworkouts' element={ <LowerWorkouts/> } />
         <Route path='/upperbodyworkouts' element={ <UpperWorkouts/> } />
-        <Route path='/submit' element={ <Submission/> } />
+        <Route path='/submission' element={ <Submission/> } />
         </Routes>
       </main>
     </div>
