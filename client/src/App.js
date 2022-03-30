@@ -27,6 +27,7 @@ function App() {
     </div>
   );
 }
+
 //Keep in mind no routes in DB for workouts and submit yet
 
 export default App;

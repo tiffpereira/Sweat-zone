@@ -20,6 +20,7 @@ Set Up:
 Set Up:
 [] npx create-react-app client 
 [] npm install react-router-dom 
+[] npm install 
 
 ## Links
 Trello: https://trello.com/b/9Zh3zRFw/swear-zone
