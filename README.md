@@ -21,6 +21,7 @@ Set Up:
 [] npx create-react-app client 
 [] npm install react-router-dom 
 [] npm install 
+[] npm install axios 
 
 ## Links
 Trello: https://trello.com/b/9Zh3zRFw/swear-zone
