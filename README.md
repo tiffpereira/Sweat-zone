@@ -10,11 +10,16 @@ The following technologies will be used: Mongoose, express, node, react, and CSS
 The database will contain a title, brief description, estimated time frame, and a youtube link. 
 
 Set Up: 
-npm init -y
-npm install mongoose
-mkdir db models seed
-touch db/index.js models/upperworkout.js lowerworkout.js seed/upperworkouts.js lowerworkout.js
+[]npm init -y
+[]npm install mongoose
+[]mkdir db models seed
+[]touch db/index.js models/upperworkout.js lowerworkout.js seed/upperworkouts.js lowerworkout.js
 
+## Frontend 
+
+Set Up:
+[] npx create-react-app client 
+[] npm install react-router-dom 
 
 ## Links
 Trello: https://trello.com/b/9Zh3zRFw/swear-zone
