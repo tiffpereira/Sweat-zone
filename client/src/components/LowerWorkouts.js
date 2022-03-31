@@ -2,24 +2,35 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const LowerWorkouts = () => {
+
+const LowerbodWorkouts = () => { 
     const [lower, setLower] = useState({})
 
     const getLower = async () => {
-        const lowerList = await axios.get('http://localhost:3005/lowerbodyworkouts')
-        setLower(lowerList.data.lowerworkouts)
-        console.log(lower)
+        const res = await axios.get('http://localhost:3005/lowerbodyworkouts')
+        setLower(res.data.lowerworkouts)
     }
 
     useEffect(() => {
         getLower()
     }, [])
 
-
-
-    return (
-        <h3> Lower bod workouts </h3>
+    if (lower[0]) {
+        return (
+            <div>
+                {lower.map((lowerworkouts) => (
+                    <div>
+                        <h2>{lowerworkouts.title}</h2>
+                        <h3>Time frame: {lowerworkouts.time_frame}</h3>
+                        <h4>Workout description:{lowerworkouts.description}</h4>
+                        <h4>{lowerworkouts.url}</h4>
+                    </div>
+                ))}
+            </div>
     )
+}       else {
+    return <h1>Page loading...</h1>
+}
 }
 
-export default LowerWorkouts
+export default LowerbodWorkouts
