@@ -1,17 +1,54 @@
 import React from 'react'
 
-const Submission = () => {
+const Submission = (props) => {
+    const handleSubmit = (e) => {
+      props.addNewWorkout(e);
+    };
+    const newWorkout = props.newWorkout;
+  
     return (
-        <div>
-        <h3> Submit your own workout here! </h3>
-        <input type="text" id={'title'} name={'title'} placeholder={'Title'} />
-        <input type="text-area" id={'description'} name={'description'} placeholder={'Description'} />
-        <input type="text" id={'time-frame'} name={'time-frame'} placeholder={'Time frame'} />
-        <input type="text" id={'url'} name={'url'} placeholder={'Website link'}/>
-        <input type="text" id={'name'} name={'name'} placeholder={'Full Name'}/>
-        <button>Submit</button>
-        </div>
-    )
-}
+      <div>
+        <h1> Submit your own workout here!</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            value={newWorkout.title}
+            onChange={props.handleChange}
+            name={"title"}
+            placeholder={"Workout title"}
+          />
+          <input
+            type="text"
+            value={newWorkout.name}
+            onChange={props.handleChange}
+            name={"name"}
+            placeholder={"Full name"}
+          />
+          <input
+            type="text-area"
+            value={newWorkout.description}
+            onChange={props.handleChange}
+            name={"description"}
+            placeholder={"Workout description"}
+          />
+          <input
+            type="text"
+            value={newWorkout.time_frame}
+            onChange={props.handleChange}
+            name={"time_frame"}
+            placeholder={"Time frame"}
+          />
+          <input
+            type="text"
+            value={newWorkout.url}
+            onChange={props.handleChange}
+            name={"url"}
+            placeholder={"Url"}
+          />
+          <button>Submit</button>
+        </form>
+      </div>
+    );
+  };
 
 export default Submission
