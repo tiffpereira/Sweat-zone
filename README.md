@@ -24,7 +24,7 @@ Trello: https://trello.com/b/9Zh3zRFw/swear-zone
 Layout: https://miro.com/app/board/uXjVOBsR_80=/
 
 ERD:
-![](readne_images/SZ-ERD.png)
+![](readme_images/SZ-ERD.png)
 
 Component hierarchy:
 ![](readme_images/CH-SZ.png)
