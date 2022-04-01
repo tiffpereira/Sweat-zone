@@ -8,27 +8,6 @@ import UpperWorkouts from './components/UpperWorkouts'
 import Schedule from './components/Schedule'
 import Home from './components/Home'
 
-// const App = () => {
-  
-//   const [newWorkout, setNewWorkout] = useState({
-//     title: '',
-//     description: '',
-//     time_frame: '',
-//     full_name: '',
-//     url: '',
-//   })
-
-
-//   /// add workout 
-//   const addNewWorkout = (e) => {
-//     e.preventDefault()
-    
-// }
-// const handleChange = (e) => {
-//     setNewWorkout({...newWorkout, [e.target.name]: e.target.value})
-// }
-// //
-
 class App extends Component {
 
   constructor(props) {

@@ -52,7 +52,7 @@ class Schedule extends Component {
             task: e.target.item.value,
             done: false,
           }]
-        });
+        })
         e.target.item.value = '';
       }
 
@@ -63,12 +63,11 @@ class Schedule extends Component {
           initalData: this.state.initalData.map(item => {
             if (item.id === id) {
               item['done'] = true;
-              return item;
+              return item 
             }
-    
-            return item;
-          })
-        });
+            return item
+            })
+        })
       }
     
       deleteTask() {
@@ -77,50 +76,48 @@ class Schedule extends Component {
         this.setState({
           initalData: this.state.initalData.filter(item => {
             if (item.id !== id) {
-              return item;
-            }
+              return item }
           })
-        });
+        })
       }
     
     
-      updateTask(event) {
-        event.preventDefault();
+      updateTask(e) {
+        e.preventDefault();
     
         this.setState({
           initalData: this.state.initalData.map(item => {
             if (item.id === this.state.id) {
-              item['task'] = event.target.updatedItem.value;
-              return item;
+              item['task'] = e.target.updatedItem.value;
+              return item
             }
-    
-            return item;
+            return item
           })
-        });
-    
+        })
         this.setState({
           edit: false
-        });
+        })
       }
     
       render() {
         return (
-          <div>
+          <div className='schedule-section'>
             <form onSubmit={this.submitTask.bind(this)}>
-              <input type="text" name="item" className="item" />
-              <button className="add-item">Add</button>
+              <input type="text" name="item" className="input-bar" />
+              <button className="task-button">Add</button>
             </form>
-            <ul>
+
+            <div className='task-list'>
               {this.state.initalData.map(item => (
                 <li key={item.id} className={ item.done ? 'done' : 'hidden' }>
                   {item.task}
-                  <button onClick={this.deleteTask.bind(this, item.id)}>Delete Workout</button>
-                  <button onClick={this.completedTask.bind(this, item.id)}>Complete Workout</button>
+                  <button className='task-button' onClick={this.deleteTask.bind(this, item.id)}>Delete Workout</button>
+                  <button className='task-button' onClick={this.completedTask.bind(this, item.id)}>Complete Workout</button>
                 </li>
               ))}
-            </ul>
+            </div>
           </div>
-        );
+        )
       }
     }
 

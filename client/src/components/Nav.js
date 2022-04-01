@@ -5,7 +5,7 @@ function Nav() {
 
   return (
     <header>
-      <nav>
+      <nav id='nav-bar'>
         <Link to='/'>Home</Link>
         <Link to='/lowerbodyworkouts' >Lower Body Workouts</Link>
         <Link to='/upperbodyworkouts' >Upper Body Workouts</Link>
