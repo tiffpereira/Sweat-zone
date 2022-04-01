@@ -48,6 +48,10 @@
   color: white;
 }
 
+.schedule {
+  justify-content: center;
+}
+
 .done {
   text-decoration: line-through;
   color: green
@@ -72,5 +76,5 @@ nav {
 
 .workout-list {
   text-align: center;
-
+  margin-top: 10px;
 }
