@@ -143,6 +143,22 @@ const createSubmission = async (req, res) => {
     }
 }
 
+const updateSubmission = async (req, res) => {
+    try {
+        const { id } = req.params;
+        await Submit.findByIdAndUpdate(id, req.body, { new: true }, (err, submit) => {
+            if (err) {
+                res.status(500).send(err);
+            }
+            if (!plant) {
+                res.status(500).send('Your workout was not able to be submitted!');
+            }
+            return res.status(200).json(submit);
+        })
+    } catch (error) {
+        return res.status(500).send(error.message);
+    }
+}
 
 module.exports = {
     getLowerWorkouts,
@@ -157,5 +173,6 @@ module.exports = {
     getUpperById,
     createUpperWorkout,
 
-    createSubmission
+    createSubmission,
+    updateSubmission
 }

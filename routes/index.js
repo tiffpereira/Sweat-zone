@@ -30,4 +30,6 @@ router.post('/upperbodyworkouts', controllers.createUpperWorkout)
 
 router.post('/submission', controllers.createSubmission)
 
+router.put('/submission', controllers.updateSubmission)
+
 module.exports = router;

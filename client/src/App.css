@@ -48,6 +48,11 @@
   color: white;
 }
 
+.done {
+  text-decoration: line-through;
+  color: green
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -63,4 +68,9 @@ nav {
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+.workout-list {
+  text-align: center;
+
 }

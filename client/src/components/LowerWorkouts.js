@@ -18,12 +18,12 @@ const LowerWorkouts = () => {
 
     if (lower[0]) {
         return (
-            <div>
+            <div className = 'workout-list'>
                 {lower.map((lowerWorkouts) => (
                     <div>
                         <h2>{lowerWorkouts.title}</h2>
                         <h3>Time frame: {lowerWorkouts.time_frame}</h3>
-                        <h4>Workout description:{lowerWorkouts.description}</h4>
+                        <h4>Workout description: {lowerWorkouts.description}</h4>
                         <h4>{lowerWorkouts.url}</h4>
                     </div>
                 ))}
