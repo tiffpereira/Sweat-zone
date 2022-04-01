@@ -1,7 +1,6 @@
 import './App.css';
 import { Component } from 'react';
 import { Route, Routes } from 'react-router-dom'
-// import { useState } from 'react'
 import Nav from './components/Nav'
 import LowerWorkouts from './components/LowerWorkouts'
 import UpperWorkouts from './components/UpperWorkouts'

@@ -21,9 +21,9 @@ const LowerWorkouts = () => {
             <div className = 'workout-list'>
                 {lower.map((lowerWorkouts) => (
                     <div>
-                        <h2>{lowerWorkouts.title}</h2>
+                        <h2 id ='workout-title'>{lowerWorkouts.title}</h2>
                         <h3>Time frame: {lowerWorkouts.time_frame}</h3>
-                        <h4>Workout description: {lowerWorkouts.description}</h4>
+                        <h4 id ='workout-description'>Workout description: {lowerWorkouts.description}</h4>
                         <h4>{lowerWorkouts.url}</h4>
                     </div>
                 ))}
