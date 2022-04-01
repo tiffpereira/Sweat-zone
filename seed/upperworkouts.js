@@ -8,8 +8,7 @@ const main = async () => {
         {
             title: "Full Upper Body Workout",
             description:`BEGINNER LEVEL
-            Trainer: Whitney Simmons
-
+            Trainer: Whitney Simmons 
             THE WORKOUT:
             Wide Grip Overhand Row
             Underhand Row
@@ -29,7 +28,6 @@ const main = async () => {
             title: "Bicep and Tricep Focused Workout",
             description:`BEGINNER LEVEL
             Trainer: Obi Vincent
-
             THE WORKOUT:
             Cable Bicep Curl
             Cable Rope Over Head Extension
@@ -47,8 +45,7 @@ const main = async () => {
         {
             title: "Back Focused Workout",
             description:`INTERMEDIATE LEVEL
-            Trainer: Jeremy Ethier
-
+            Trainer: Jeremy Ethier 
             THE WORKOUT:
             Deadlift 
             Pull-Ups
@@ -62,8 +59,7 @@ const main = async () => {
         {
             title: "Chest Focused Workout",
             description:`INTERMEDIATE LEVEL
-            Trainer: Jeremy Ethier
-
+            Trainer: Jeremy Ethier 
             THE WORKOUT:
             Incline Dumbbell Press
             Dips
@@ -77,7 +73,6 @@ const main = async () => {
             title: "Abs Focused Workout",
             description:`EXPERIENCED LEVEL
             Trainer: Annabelle Hayes
-
             THE WORKOUT:
             Single Leg Raise Crunch
             Single Leg Crunches

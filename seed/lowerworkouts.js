@@ -8,8 +8,7 @@ const main = async () => {
         {
             title: "Glute Focused Workout",
             description: `BEGINNER LEVEL
-            Trainer: Krissy Cela
-
+            Trainer:Krissy Cela
             THE WORKOUT:
             Hip Thrusts
             Sumo Deadlifts 
@@ -25,8 +24,7 @@ const main = async () => {
         {
             title: "Quad, Glute, & Hamstring Focused Workout",
             description: `BEGINNER LEVEL
-			Trainer: Jeremy Ethier
-
+            Trainer: Jeremy Ethier 
             THE WORKOUT:
             Back Squats or Front Squats
             Hip Thrusts
@@ -42,7 +40,6 @@ const main = async () => {
             title: "Full Leg Workout",
             description: `INTERMEDIATE LEVEL
             Trainer: Obi Vincent
-        
             THE WORKOUT:
             Kang Squats
             Cossack Squats
@@ -59,8 +56,7 @@ const main = async () => {
         { 
             title: `Quad & Glute Focused Workout`,
             description: `INTERMEDIATE LEVEL
-            Trainer: Whitney Simmons
-
+            Trainer: Whitney Simmons 
             THE WORKOUT:
             Barbell Back Squat
             Single-leg Assisted Barbell RDL
@@ -74,8 +70,7 @@ const main = async () => {
         {
             title: "Quad and Calf Focused Workout",
             description: `EXPERIENCED LEVEL
-			Trainer: Caroline Girvan
-
+            Trainer: Caroline Girvan
             THE WORKOUT:
             Heel Elevated Squats
             Static Lunge
