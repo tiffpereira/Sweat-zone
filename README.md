@@ -18,7 +18,7 @@ The front end has 4 different pages: home, upper body workouts, upper body worko
 3. Improve styling to make the website easier to use and beautiful! 
 
 
-## Links
+### Links
 Trello: https://trello.com/b/9Zh3zRFw/swear-zone
 
 Layout: https://miro.com/app/board/uXjVOBsR_80=/
@@ -29,7 +29,7 @@ ERD:
 Component hierarchy:
 ![](readme_images/CH-SZ.png)
 
-Resources Used:
+### Resources Used:
 GA lessons, labs and homework assignments from unit 2 
 https://www.freecodecamp.org/news/how-to-perform-crud-operations-using-react/
 https://www.youtube.com/watch?v=K5O6ZJ7WoZg
