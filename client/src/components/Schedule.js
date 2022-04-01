@@ -103,8 +103,8 @@ class Schedule extends Component {
         return (
           <div className='schedule-section'>
             <form onSubmit={this.submitTask.bind(this)}>
-              <input type="text" name="item" className="input-bar" />
-              <button className="task-button">Add</button>
+              <input type="text" name="item" placeholder='Add workout' className="input-bar" />
+              <button className="add-button">Add</button>
             </form>
 
             <div className='task-list'>

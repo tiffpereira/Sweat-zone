@@ -1,3 +1,10 @@
+.add-button {
+  padding: 9px 20px;
+  border-radius: 5px;
+  border-color: aliceblue;
+  background-color: beige;
+}
+
 .App-header {
   background-color: black;
   min-height: 10vh;
@@ -10,6 +17,16 @@
 .done {
   text-decoration: line-through;
   color: green
+}
+.input-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 32px;
+  width: 350px;
+}
+
+li {
+  padding: 5px;
 }
 
 nav {
@@ -42,10 +59,15 @@ nav {
 
 .task-button {
   background-color: beige;
+  border-radius: 5px;
+  border-color: aliceblue;
+  margin-left: 5px;
 }
 
 .task-list {
   text-align: center;
+  padding: 10px;
+
 }
 
 .workout-list {
