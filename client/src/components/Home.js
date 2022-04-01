@@ -4,7 +4,7 @@ const Home = () => {
 
     return (
     <div className='homepage'>
-        <img id='homepage-image' src= 'https://cdn.thespaces.com/wp-content/uploads/2020/01/Gymshark-hero-crop.jpg' alt = 'sweat gym'></img>
+        <img id='homepage-image' src= 'https://cdn.thespaces.com/wp-content/uploads/2020/01/Gymshark-hero-crop.jpg' alt='sweat gym' width='100%' ></img>
     </div>
     )
 }

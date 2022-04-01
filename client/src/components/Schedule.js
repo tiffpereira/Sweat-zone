@@ -11,33 +11,33 @@ class Schedule extends Component {
           edit: false,
           initalData: [{
             id: '1',
-            task: 'Quad, glute, & hamstring workout on monday',
+            task: 'Monday: quad, glute, & hamstring workout',
             done: false
           }, {
             id: '2',
-            task: 'Bicep and tricep workout on tuesday',
+            task: 'Tuesday: bicep and tricep workout',
             done: false
           }, {
             id: '3',
-            task: 'Rest day on wednesday',
+            task: 'Wednesday: rest day',
             done: false
           }, {
             id: '4',
-            task: 'Back workout on thursday',
+            task: 'Thursday: back workout',
             done: false
           },{
             id: '5',
-            task: 'Abs workout on friday',
+            task: 'Friday: abs workout',
             done: false
           },
           {
             id: '6',
-            task: 'Rest day on saturday',
+            task: 'Saturday: rest day',
             done: false
           },
           {
             id: '7',
-            task: 'Quad and calf workout on sunday',
+            task: 'Sunday: quad and calf workout',
             done: false
           }]
         }
@@ -108,6 +108,7 @@ class Schedule extends Component {
             </form>
 
             <div className='task-list'>
+              <h3>Workout Plan:</h3>
               {this.state.initalData.map(item => (
                 <li key={item.id} className={ item.done ? 'done' : 'hidden' }>
                   {item.task}
