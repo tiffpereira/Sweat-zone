@@ -51,6 +51,16 @@ nav {
   height: auto;
 }
 
+.newworkoutform {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.newworkouttitle {
+  font-size: 25px;
+  background-color: navy;
+  color: white;
+}
 .schedule-section {
   text-align: center;
 }
