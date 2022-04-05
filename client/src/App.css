@@ -51,18 +51,19 @@ nav {
   height: auto;
 }
 
-.newworkoutform {
+.new-workout-form {
   text-align: center;
   margin-top: 75px;
 }
 
-.newworkouttitle {
+.new-workout-title {
   font-size: 25px;
   background-color: navy;
   color: white;
 }
 .schedule-section {
   text-align: center;
+  padding: 25px 0px 25px 0px;
 }
 
 .task-button {

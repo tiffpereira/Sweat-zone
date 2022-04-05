@@ -71,8 +71,8 @@ const UpperWorkouts = () => {
                 ))}
             </div>
     
-            <div className="newworkoutform">
-                <h3 className='newworkouttitle'>Add your own workout here!</h3>
+            <div className="new-workout-form">
+                <h3 className='new-workout-title'>Add your own workout here!</h3>
                     <form>
                         <div>
                             <input type='text' onChange={handleChange} name="title" value={newUpper.title} placeholder="Workout title"></input>
